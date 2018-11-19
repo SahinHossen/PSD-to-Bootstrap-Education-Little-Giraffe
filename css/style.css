@@ -1,0 +1,434 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(../images/education-body.png);
+	font-family: 'Dosis', sans-serif;
+	color: #333333;
+	font-size: 16px;
+	line-height: 1.5;
+}
+/* Custom Background Color */
+.c-bg-p {
+	background-color: #1EC0FF;
+}
+.c-bg-s {
+	background-color: #56D47E;
+}
+.c-bg-d {
+	background-color: #F05C5C;
+}
+.c-bg-w {
+	background-color: #FFD338;
+}
+/* Custom Background Color */
+
+/* Custom Text Color */
+.c-t-c-p {
+	color: #1EC0FF;
+}
+.c-t-c-s {
+	color: #56D47E;
+}
+.c-t-c-d {
+	color: #F05C5C;
+}
+.c-t-c-w {
+	color: #FFD338;
+}
+/* Custom Text Color */
+
+.bd0 {
+	border: 2px solid green;
+}
+.bd1 {
+	border: 2px solid red;
+}
+.bd2 {
+	border: 2px solid blue;
+}
+
+/* Header Start */
+header {
+	background-color: #FFD338;
+	font-size: 18px;
+	font-weight: 700;
+}
+.custom-img-logo {
+	width: 80%;
+}
+.custom-nav {}
+.custom-nav ul {}
+.custom-nav ul li {}
+.custom-nav ul li a {
+	color: #efeeef !important;
+	padding: 0 20px !important;
+	transition: .5s;
+	border-radius: 50px;
+}
+.custom-nav ul li a:hover {
+	background-color: #F05C5C;
+}
+.user {
+	border: none;
+	background-color: transparent;
+}
+.user-btn {
+	background-color: #FFD338;
+	color: #fff;
+	box-shadow: none !important;
+}
+.search i {
+	color: white !important;	
+}
+
+/* Header End */
+
+/* Banner Start */
+.banner {
+	background-image: url(../images/education-banner.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding: 50px 0;
+}
+.b-body {}
+.b-title {}
+.b-title h1 {
+	font-size: 48px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	word-spacing: 5px;
+	padding-top: 280px;
+	padding-bottom: 230px;
+}
+.scroll {
+	margin: -2px auto;
+}
+.scroll p {
+	font-size: 18px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+/* Banner End */
+
+/* 1st Kid Education Start */
+.kid-edu {
+	margin: 50px auto;
+}
+.common-title {
+	margin: 30px auto;
+}
+.common-title h1 {
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	word-spacing: 5px;
+	margin: 20px auto;
+}
+.common-title hr {
+	border-bottom: 6px dashed #ffffff;
+	width: 260px;
+	margin: 0 auto;
+}
+.custom-title {
+	margin: 20px auto;
+}
+.custom-title h2 {
+	font-size: 24px;
+	font-weight: 700;
+	margin: 15px auto;
+	letter-spacing: 3px;
+	word-spacing: 5px;
+}
+.custom-title hr {
+	border-bottom: 3px solid #DDDDDD;
+	width: 200px;
+}
+.custom-p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	margin: 10px auto;
+}
+.custom_btn {
+	background: none;
+	border: none;
+	outline: none;
+	margin-top: 20px;
+}
+.custom-img {
+	width: 100%;
+	border-radius: 15px;
+}
+/* 1st Kid Education End */
+
+/* 2nd Kid Education Start */
+.kid-edu2 {
+	background-image: url(../images/education-bg-desiration.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding: 50px 0;	
+}
+.kid-edu-img {
+	margin: 10px;
+}
+/* 2nd Kid Education End */
+
+/* Cources Start */
+.cource {
+	margin: 50px auto;
+}
+.custom-card {
+	margin: 15px auto;
+	border-radius: 20px !important;
+}
+.custom-c-h {
+	position: relative;
+	padding: 12px 0;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.custom-c-h p {
+	color: #efeeef;
+	font-size: 12px;
+	font-weight: 400;
+	font-family: 'Lato', sans-serif;
+	margin: 0px auto !important;
+}
+.custom-c-h img {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	margin: auto;
+}
+.custom-title h3 {
+	font-size: 24px;
+	font-weight: 500;
+	margin: 15px auto;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+}
+.custom-c-b {
+	position: relative;
+}
+.price {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	top: -25px;
+	right: 10px;
+	position: absolute;
+}
+.price p:first-child {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+	margin: 0;
+}
+.price p:last-child {
+	color: #fff;
+	font-size: 12px;
+	font-weight: 300;
+	margin: -3px;
+}
+.custom-c-f {
+	padding: 12px 0;
+	border-top: 1px solid #DDDDDD;
+}
+.custom-c-f p {
+	margin: 0;
+}
+.custom-c-btn {
+	padding: 10px 0;
+	margin: 50px auto;
+	display: block;
+	border-radius: 20px;
+}
+/* Cources End */
+
+/* Memorable Moments Start */
+.memorable-moment {
+	background-image: url(../images/education-memorable-moment.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin: 50px auto;
+}
+.p-gallery {
+	margin: 50px auto;
+}
+.custom-p-g-img {
+	border-radius: 15px;
+	padding: 0;
+	margin: 15px !important;
+}
+.mm-footer {
+	margin: 50px auto;
+}
+/* Memorable Moments End */
+
+/* Twitter Contacts Start */
+.twitter-contact {
+	margin: 50px auto;
+}
+.tc-icon {
+	margin-top: 50px;
+}
+.tc-icon i {
+	font-size: 60px;
+}
+.text-content p {
+	font-size: 16px;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+	line-height: 3.0;
+	letter-spacing: 2px;
+	word-spacing: 3px;
+}
+/* Twitter Contacts End */
+
+/* Teachers Start */
+.teacher {
+	margin: 50px auto;
+}
+.custom-t-img {
+	border-radius: 15px;
+}
+.custom-title h4 {
+	color: #333333;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #A9A9A9 !important;
+}
+.t-icon {}
+.t-icon a {
+	padding: 0 10px;
+}
+.t-icon a:first-child {
+	padding-left: 0;
+}
+.t-icon a:nth-child(1) {
+	color: #4366FF !important;
+}
+.t-icon a:nth-child(2) {
+	color: #1EC0FF !important;
+}
+.t-icon a:nth-child(3) {
+	color: #F05C5C !important;
+}
+.t-icon a:nth-child(4) {
+	color: #0B3861 !important;
+}
+.t-footer {
+	margin: 10px auto;
+}
+.t-footer p {
+	font-size: 18px;
+	font-weight: 700;
+	padding-bottom: 0px;
+	border-bottom: 1px solid #A9A9A9 !important;
+	display: inline-block;
+}
+/* Teachers End */
+
+/* Blog Start */
+.blog {
+	background-image: url(../images/education-Recovered.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin: 50px auto;
+}
+.blog-title {
+	margin-bottom: 200px;
+}
+/* Blog End */
+/* Events Start */
+/* Events Timeline */
+.custom-hr hr {
+	margin: 0;
+}
+.event-t {
+	width: 100px;
+	height: 100px;
+}
+.event-t p:nth-child(1) {
+	font-size: 48px;
+	color: #fff;
+	font-weight: 700;
+	margin: 0;
+}
+.event-t p:nth-child(2) {
+	font-size: 18px;
+	color: #fff;
+	font-weight: 500;
+	margin: -15px;
+}
+.custom-p2 {
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 2px;
+	word-spacing: 3px;
+	text-transform: uppercase;
+}
+.event-f h2 {
+	color: #fb9130;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: ;
+}
+/* Events Timeline */
+/* Events End */
+
+/* Contact Start */
+.contact {
+	background-color: white;
+	padding: 50px 0;	
+}
+.custom-c-hr hr {
+	width: 180px;
+	border: none;
+	border-bottom: 5px dotted;
+}
+.c-icon {
+	color: #DDDDDD;
+	padding-right: 5px;
+}
+/* Contact End */
+/* Footer Start */
+footer {
+	background-color: #FFD338;
+	font-size: 18px;
+	font-weight: 700;
+	padding: 20px 0;
+}
+.f-menu .nav a {
+	color: #efeeef !important;
+	padding: 0 20px !important;
+	transition: .5s;
+	border-radius: 50px;
+}
+.f-menu .nav a:hover {
+	background-color: #F05C5C;
+}
+.f-copy-right p {
+	color: #efeeef !important;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+}
+/* Footer End */
+
+

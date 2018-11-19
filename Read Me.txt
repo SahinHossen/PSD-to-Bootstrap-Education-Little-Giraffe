@@ -1,0 +1,74 @@
+Font Family Name
+<<<<<===>>>>>
+
+font-family: 'Lato', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Sniglet', cursive;
+
+<<<<<=>>>>>
+
+Custom Color
+<<<<<===>>>>>
+
+c-bg-p <---> Custom Bckground Color Primary
+c-bg-s <---> Custom Bckground Color Success
+c-bg-d <---> Custom Bckground Color Danger
+c-bg-w <---> Custom Bckground Color Warning
+
+c-t-c-p <---> Custom Text Color Primary
+c-t-c-s <---> Custom Text Color Success
+c-t-c-d <---> Custom Text Color Danger
+c-t-c-w <---> Custom Text Color Warning
+
+<<<<->>>>>
+Some Important Class Abbreviation with Full Name
+<<<<<===>>>>>
+b-body <---> Banner Body
+b-title <---> Banner Title
+k-e-body <---> Kid Education Body
+k-e-text <---> Kid Education Text
+k-e-img <---> Kid Education Images
+c-i-img <---> Cource Indicator Imgges
+custom-c-h <---> Custom Card Header
+custom-c-b <---> Custom Card Body
+custom-c-f <---> Custom Card Footer
+custom-c-btn <---> Custom Card Button
+p-gallery <---> Photo Gallery
+custom-p-g-img <---> Custom Photo Gallery Images
+mm-footer <---> Memorable Moment Footer
+custom-t-img <---> Custom Teacher Images
+<<<<<=>>>>>
+
+
+.search-box {
+	position: relative;
+	margin-left: 20px;
+}
+.search-box:hover .search-text {
+	width: 200px;
+	padding: 0 30px 0 5px;
+	margin-left: 5px;
+}
+.search-box:hover .search-btn {
+	background: #FFD338;
+	padding: 0 6px;
+	top: 0px;
+	right: -1px;
+	border-radius: 50%;
+	color: #fff;
+}
+.search-text {
+	width: 0;
+	border: none;
+	border-radius: 15px;
+	outline: none;
+	color: #000000;
+	transition: .5s;
+}
+.search-btn {
+	color: #fff;
+	position: absolute;
+	top: 0px;
+	right: 5px;
+	margin: auto;
+}
