@@ -41,34 +41,81 @@ custom-t-img <---> Custom Teacher Images
 
 
 .search-box {
-	position: relative;
-	margin-left: 20px;
+position: relative;
+margin-left: 20px;
 }
 .search-box:hover .search-text {
-	width: 200px;
-	padding: 0 30px 0 5px;
-	margin-left: 5px;
+width: 200px;
+padding: 0 30px 0 5px;
+margin-left: 5px;
 }
 .search-box:hover .search-btn {
-	background: #FFD338;
-	padding: 0 6px;
-	top: 0px;
-	right: -1px;
-	border-radius: 50%;
-	color: #fff;
+background: #FFD338;
+padding: 0 6px;
+top: 0px;
+right: -1px;
+border-radius: 50%;
+color: #fff;
 }
 .search-text {
-	width: 0;
-	border: none;
-	border-radius: 15px;
-	outline: none;
-	color: #000000;
-	transition: .5s;
+width: 0;
+border: none;
+border-radius: 15px;
+outline: none;
+color: #000000;
+transition: .5s;
 }
 .search-btn {
-	color: #fff;
-	position: absolute;
-	top: 0px;
-	right: 5px;
-	margin: auto;
+color: #fff;
+position: absolute;
+top: 0px;
+right: 5px;
+margin: auto;
 }
+
+
+
+<div class="p-gallery">
+<div class="row justify-content-center mr-auto">
+<div class="col-lg-3 col-md-5 col-sm-6 col-10 pl-0">
+<img src="images/photo-gallery-001.jpeg" alt="Photo Gallery Images" class="img-fluid custom-p-g-img">
+</div>
+
+<div class="col-lg-3 col-md-5 col-sm-6 col-10 pl-0">
+<img src="images/photo-gallery-002.jpeg" alt="Photo Gallery Images" class="img-fluid custom-p-g-img">
+</div>
+
+<div class="col-lg-3 col-md-5 col-sm-6 col-10 pl-0">
+<img src="images/photo-gallery-003.jpeg" alt="Photo Gallery Images" class="img-fluid custom-p-g-img">
+</div>
+
+<div class="col-lg-3 col-md-5 col-sm-6 col-10 pl-0">
+<img src="images/photo-gallery-004.jpeg" alt="Photo Gallery Images" class="img-fluid custom-p-g-img">
+</div>
+
+<div class="col-lg-3 col-md-5 col-sm-6 col-10 pl-0">
+<img src="images/photo-gallery-005.jpeg" alt="Photo Gallery Images" class="img-fluid custom-p-g-img">
+</div>
+
+<div class="col-lg-3 col-md-5 col-sm-6 col-10 pl-0">
+<img src="images/photo-gallery-006.jpeg" alt="Photo Gallery Images" class="img-fluid custom-p-g-img">
+</div>
+
+<div class="col-lg-3 col-md-5 col-sm-6 col-10 pl-0">
+<img src="images/photo-gallery-007.jpeg" alt="Photo Gallery Images" class="img-fluid custom-p-g-img">
+</div>
+
+<div class="col-lg-3 col-md-5 col-sm-6 col-10 pl-0">
+<img src="images/photo-gallery-008.jpeg" alt="Photo Gallery Images" class="img-fluid custom-p-g-img">
+</div>
+</div>
+<div class="mm-footer">
+<div class="row">
+<div class="col-lg-12 text-center">
+<button type="button" class="btn custom-btn">
+<img src="images/education-view-more.png" alt="Memorable Moment Footer Button" class="img-fluid">
+</button>
+</div>
+</div>
+</div>
+</div>

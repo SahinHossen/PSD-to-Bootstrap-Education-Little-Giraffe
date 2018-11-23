@@ -39,17 +39,12 @@ body {
 	color: #FFD338;
 }
 /* Custom Text Color */
-
-.bd0 {
-	border: 2px solid green;
-}
-.bd1 {
+.bg0 {
 	border: 2px solid red;
 }
-.bd2 {
+.bg1 {
 	border: 2px solid blue;
 }
-
 /* Header Start */
 header {
 	background-color: #FFD338;
@@ -57,13 +52,13 @@ header {
 	font-weight: 700;
 }
 .custom-img-logo {
-	width: 80%;
+	width: 100%;
 }
 .custom-nav {}
 .custom-nav ul {}
 .custom-nav ul li {}
 .custom-nav ul li a {
-	color: #efeeef !important;
+	color: #ffffff !important;
 	padding: 0 20px !important;
 	transition: .5s;
 	border-radius: 50px;
@@ -80,6 +75,9 @@ header {
 	color: #fff;
 	box-shadow: none !important;
 }
+.search {
+	margin-left: 5px;
+}
 .search i {
 	color: white !important;	
 }
@@ -87,32 +85,45 @@ header {
 /* Header End */
 
 /* Banner Start */
-.banner {
-	background-image: url(../images/education-banner.png);
+.banner {}
+.banner-top {
+	background-image: url(../images/education-banner-top.png);
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: top;
 	-webkit-background-size: cover;
 	background-size: cover;
-	padding: 50px 0;
+	min-height: 145px;
 }
-.b-body {}
-.b-title {}
+.banner-body {
+	background-color: #fff;
+}
+.b-title {
+	padding-top: 120px;
+	padding-bottom: 150px;
+}
 .b-title h1 {
 	font-size: 48px;
 	font-weight: 700;
 	letter-spacing: 3px;
 	word-spacing: 5px;
-	padding-top: 280px;
-	padding-bottom: 230px;
+	
 }
-.scroll {
-	margin: -2px auto;
+.banner-footer {
+	background-image: url(../images/education-banner-footer.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	-webkit-background-size: cover;
+	background-size: cover;
+	min-height: 165px;
 }
+.scroll {}
 .scroll p {
 	font-size: 18px;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
+	margin-top: 80px;
 }
+
 /* Banner End */
 
 /* 1st Kid Education Start */
@@ -120,7 +131,7 @@ header {
 	margin: 50px auto;
 }
 .common-title {
-	margin: 30px auto;
+	margin: 50px auto;
 }
 .common-title h1 {
 	font-size: 30px;
@@ -131,6 +142,7 @@ header {
 	margin: 20px auto;
 }
 .common-title hr {
+	border: none;
 	border-bottom: 6px dashed #ffffff;
 	width: 260px;
 	margin: 0 auto;
@@ -142,10 +154,10 @@ header {
 	font-size: 24px;
 	font-weight: 700;
 	margin: 15px auto;
-	letter-spacing: 3px;
-	word-spacing: 5px;
+	letter-spacing: 1px;
 }
 .custom-title hr {
+	border: none;
 	border-bottom: 3px solid #DDDDDD;
 	width: 200px;
 }
@@ -154,7 +166,7 @@ header {
 	font-weight: 300;
 	margin: 10px auto;
 }
-.custom_btn {
+.custom-btn {
 	background: none;
 	border: none;
 	outline: none;
@@ -174,6 +186,9 @@ header {
 	-webkit-background-size: cover;
 	background-size: cover;
 	padding: 50px 0;	
+}
+.kid-edu2-body {
+	margin-bottom: 50px;
 }
 .kid-edu-img {
 	margin: 10px;
@@ -237,6 +252,9 @@ header {
 	font-weight: 300;
 	margin: -3px;
 }
+.custom-c-t {
+	min-height: 100px;
+}
 .custom-c-f {
 	padding: 12px 0;
 	border-top: 1px solid #DDDDDD;
@@ -259,15 +277,14 @@ header {
 	background-position: center center;
 	-webkit-background-size: cover;
 	background-size: cover;
-	margin: 50px auto;
+	padding: 50px 0;
 }
 .p-gallery {
 	margin: 50px auto;
 }
 .custom-p-g-img {
-	border-radius: 15px;
-	padding: 0;
-	margin: 15px !important;
+	border-radius: 40px;
+	padding: 15px 0;
 }
 .mm-footer {
 	margin: 50px auto;
@@ -299,6 +316,7 @@ header {
 	margin: 50px auto;
 }
 .custom-t-img {
+	width: 100%;
 	border-radius: 15px;
 }
 .custom-title h4 {
@@ -347,13 +365,16 @@ header {
 	background-position: center center;
 	-webkit-background-size: cover;
 	background-size: cover;
-	margin: 50px auto;
+	padding: 50px 0;
 }
 .blog-title {
 	margin-bottom: 200px;
 }
 /* Blog End */
 /* Events Start */
+.event {
+	margin: 50px auto;
+}
 /* Events Timeline */
 .custom-hr hr {
 	margin: 0;
@@ -378,8 +399,7 @@ header {
 	font-size: 16px;
 	font-weight: 400;
 	font-family: 'Lato', sans-serif;
-	letter-spacing: 2px;
-	word-spacing: 3px;
+	letter-spacing: 1px;
 	text-transform: uppercase;
 }
 .event-f h2 {
@@ -389,18 +409,42 @@ header {
 	font-weight: ;
 }
 /* Events Timeline */
+
+/* Recent News */
+.custom-h2 {
+	margin: -20px 0 !important;
+}
+.custom-r-n-hr hr {
+	width: 100%;
+	margin: 25px auto;
+	border: none;
+	border-bottom: 5px dotted;
+}
+/* Recent News */
 /* Events End */
 
 /* Contact Start */
 .contact {
 	background-color: white;
-	padding: 50px 0;	
+	padding-bottom: 50px;	
+}
+.footer-bg {
+	background-image: url(../images/education-footer.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	-webkit-background-size: cover;
+	background-size: cover;
+	min-height: 150px;
 }
 .custom-c-hr hr {
 	width: 180px;
 	border: none;
 	border-bottom: 5px dotted;
 }
+.i-p-g-img  img {
+	padding: 15px 0 !important;
+}
+
 .c-icon {
 	color: #DDDDDD;
 	padding-right: 5px;
@@ -415,12 +459,7 @@ footer {
 }
 .f-menu .nav a {
 	color: #efeeef !important;
-	padding: 0 20px !important;
-	transition: .5s;
-	border-radius: 50px;
-}
-.f-menu .nav a:hover {
-	background-color: #F05C5C;
+	padding: 0 10px !important;
 }
 .f-copy-right p {
 	color: #efeeef !important;
