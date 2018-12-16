@@ -6,28 +6,34 @@
 		font-size: 16px;
 	}
 	.custom-nav ul li a {
-		margin: 5px 0 !important;
+		padding: 2px 15px !important;
+		margin: 5px auto;
+		display: inline-block;
 	}
 	.user {
 		margin-left: 10px;
 	}
-	.search {
-		margin-left: 20px;
+	.custom-input {
+		width: 200px;
+		margin: 0 15px;
+	}
+	.search-icon {
+		padding: 5px 15px;
 	}
 	/* Header End */
 
 	/* Banner Start */
 	.banner {
 		background-color: #fff;
-		padding-bottom: 25px;
+		padding-bottom: 30px;
 	}
 	.banner-top {
 		background-image: none;
 		min-height: 0;
 	}
 	.b-title {
-		padding-top: 150px;
-		padding-bottom: 100px;
+		padding-top: 120px;
+		padding-bottom: 80px;
 	}
 	.b-title h1 {
 		font-size: 25px;
@@ -37,6 +43,7 @@
 	.banner-footer {
 		background-image: none;
 		min-height: 0;
+		margin-bottom: 30px;
 	}
 	.scroll p {
 		font-size: 16px;
@@ -51,17 +58,20 @@
 	.memorable-moment,
 	.twitter-contact,
 	.teacher,
-	.event  {
-		margin: 25px auto;
+	.event {
+		margin: 30px auto;
 	}
 	.common-title {
-		margin: 15px auto;
+		margin: 30px auto;
 	}
 	.common-title h1 {
 		font-size: 23px;
 		letter-spacing: 2px;
 		word-spacing: 2px;
 		margin: 15px auto;
+	}
+	.kid-edu-content {
+		padding-bottom: 30px;
 	}
 	.custom-title h2 {
 		font-size: 20px;
@@ -76,24 +86,28 @@
 
 	/* 2nd Kid Education Start */
 	.kid-edu2-body {
-		margin-bottom: 25px;
+		margin-bottom: 30px;
 	}
 	/* 2nd Kid Education End */
 
 	/* Cources Start */
-	.custom-c-btn, .p-gallery, .mm-footer {
-		margin: 20px auto;
+	.custom-c-t {
+		min-height: 0;
+	}
+	.custom-c-btn,
+	.p-gallery {
+		margin: 30px auto;
 	}
 	/* Cources End */
 
 	/* Memorable Moments Start */
-	
+	.mm-footer,
+	.tc-body {
+		margin-top: 30px;
+	}	
 	/* Memorable Moments End */
 
 	/* Twitter Contacts Start */
-	.tc-icon {
-		margin-top: 20px;
-	}
 	.text-content p {
 		line-height: 2.0;
 		letter-spacing: 1px;
@@ -101,19 +115,41 @@
 	}
 	/* Twitter Contacts End */
 
-	/* Teachers Start */	
+	/* Teachers Start */
+	.teacher-content {
+		padding-bottom: 0px;
+	}
 	.t-footer p {
 		font-size: 16px;
 	}
 	/* Teachers End */
 
 	/* Blog Start */
+	.blog {
+		padding: 30px 0;
+	}
 	.blog-title {
-		padding-bottom: 60px;
+		margin: 30px auto;
+	}
+	.blog-content {
+		margin-bottom: 10px;
+	}
+	.single-blog {
+		margin-bottom: 20px;
+	}
+	.blog-text h1 {
+		font-size: 40px;
+	}
+	.blog-text h2 {
+		font-size: 16px;
 	}
 	/* Blog End */
 
 	/* Events Start */
+	.single-event .custom-title {
+		margin-top: 15px;
+		margin-bottom: -10px;
+	}
 	.event-t {
 		width: 75px;
 		height: 75px;
@@ -126,6 +162,15 @@
 		margin: -8px;
 	}
 	/* Events End */
+
+	/* Contact Start */
+	.contact {
+		padding-bottom: 30px
+	}
+	.single-recent-news .custom-title {
+		margin-top: 40px;
+	}
+	/* Contact End */
 
 	/* Footer Start */
 	footer {
@@ -151,13 +196,19 @@
 		font-size: 16px;
 	}
 	.custom-nav ul li a {
-		margin: 5px 0 !important;
+		padding: 2px 15px !important;
+		margin: 5px auto;
+		display: inline-block;
+	}
+	.custom-input {
+		width: 200px;
+		margin: 0 15px;
+	}
+	.search-icon {
+		padding: 5px 15px;
 	}
 	.user {
 		margin-left: 10px;
-	}
-	.search {
-		margin-left: 20px;
 	}
 	/* Header End */
 
@@ -191,16 +242,19 @@
 	.twitter-contact,
 	.teacher,
 	.event  {
-		margin: 30px auto;
+		margin: 35px auto;
 	}
 	.common-title {
-		margin: 15px auto;
+		margin: 35px auto;
 	}
 	.common-title h1 {
 		font-size: 24px;
 		letter-spacing: 2px;
 		word-spacing: 3px;
 		min-height: 18px auto;
+	}
+	.kid-edu-content {
+		padding-bottom: 35px;
 	}
 	.custom-title h2 {
 		font-size: 22px;
@@ -215,25 +269,28 @@
 
 	/* 2nd Kid Education Start */
 	.kid-edu2-body {
-		margin-bottom: 30px;
+		margin-bottom: 35px;
 	}
 	/* 2nd Kid Education End */
 
 	/* Cources Start */
+	.custom-c-t {
+		min-height: 100px;
+	}
 	.custom-c-btn,
-	.p-gallery,
-	.mm-footer {
-		margin: 25px auto;
+	.p-gallery {
+		margin: 35px auto;
 	}
 	/* Cources End */
 
 	/* Memorable Moments Start */
+	.mm-footer,
+	.tc-body {
+		margin-top: 35px;
+	}
 	/* Memorable Moments End */
 
 	/* Twitter Contacts Start */
-	.tc-icon {
-		margin-top: 25px;
-	}
 	.text-content p {
 		line-height: 2.0;
 		letter-spacing: 1px;
@@ -242,19 +299,43 @@
 	/* Twitter Contacts End */
 
 	/* Teachers Start */
+	.teacher-content {
+		padding-bottom: 5px;
+	}
 	.t-footer p {
 		font-size: 16px;
 	}
 	/* Teachers End */
 
+
 	/* Blog Start */
+	.blog {
+		padding: 35px 0;
+	}
 	.blog-title {
-		padding-bottom: 60px;
+		margin: 35px auto;
+	}
+	.blog-content {
+		margin-bottom: 15px;
+	}
+	.single-blog {
+		margin-bottom: 20px;
+	}
+	.blog-text h1 {
+		font-size: 45px;
+	}
+	.blog-text h2 {
+		font-size: 18px;
 	}
 	/* Blog End */
 
 	/* Events Start */
 	/* Events End */
+	/* Contact Start */
+	.contact {
+		padding-bottom: 35px
+	}
+	/* Contact End */
 
 	/* Footer Start */
 	footer {
@@ -279,7 +360,16 @@
 		font-size: 17px;
 	}
 	.custom-nav ul li a {
-		padding: 0 8px !important;
+		padding: 2px 15px !important;
+		margin: 5px auto;
+		display: inline-block;
+	}
+	.custom-input {
+		width: 200px;
+		margin: 0 15px;
+	}
+	.search-icon {
+		padding: 5px 15px;
 	}
 	/* Header End */
 
@@ -309,15 +399,18 @@
 	.twitter-contact,
 	.teacher,
 	.event {
-		margin: 35px auto;
+		margin: 40px auto;
 	}
 	.common-title {
-		margin: 15px auto;
+		margin: 40px auto;
 	}
 	.common-title h1 {
 		font-size: 26px;
 		letter-spacing: 2px;
 		word-spacing: 3px;
+	}
+	.kid-edu-content {
+		padding-bottom: 40px;
 	}
 	.custom-title h2 {
 		font-size: 23px;
@@ -332,25 +425,28 @@
 
 	/* 2nd Kid Education Start */
 	.kid-edu2-body {
-		margin-bottom: 35px;
+		margin-bottom: 40px;
 	}
 	/* 2nd Kid Education End */
 
 	/* Cources Start */
+	.custom-c-t {
+		min-height: 75px;
+	}
 	.custom-c-btn,
-	.p-gallery,
-	.mm-footer {
-		margin: 30px auto;
+	.p-gallery {
+		margin: 40px auto;
 	}
 	/* Cources End */
 
 	/* Memorable Moments Start */
+	.mm-footer,
+	.tc-body {
+		margin-top: 40px;
+	}
 	/* Memorable Moments End */
 
 	/* Twitter Contacts Start */
-	.tc-icon {
-		margin-top: 30px;
-	}
 	.text-content p {
 		line-height: 2.5;
 		letter-spacing: 2px;
@@ -359,19 +455,40 @@
 	/* Twitter Contacts End */
 
 	/* Teachers Start */
+	.teacher-content {
+		padding-bottom: 10px;
+	}
 	.t-footer p {
 		font-size: 17px;
 	}
 	/* Teachers End */
 
 	/* Blog Start */
+	.blog {
+		padding: 40px 0;
+	}
 	.blog-title {
-		padding-bottom: 60px;
+		margin: 40px auto;
+	}
+	.blog-content {
+		margin-bottom: 40px;
+	}
+	.blog-text h1 {
+		font-size: 50px;
+	}
+	.blog-text h2 {
+		font-size: 19px;
 	}
 	/* Blog End */
 
 	/* Events Start */
 	/* Events End */
+
+	/* Contact Start */
+	.contact {
+		padding-bottom: 40px;	
+	}
+	/* Contact End */
 
 	/* Footer Start */
 	footer {
@@ -390,7 +507,11 @@
 
 	/* Header Start */
 	.custom-nav ul li a {
-		padding: 0 12px !important;
+		padding: 0 10px !important;
+	}
+	.custom-input {
+		width: 135px;
+		padding: 0px 5px;
 	}
 	/* Header End */
 
@@ -400,6 +521,9 @@
 	}
 	.banner-footer {
 		min-height: 145px;
+	}
+	.b-title h1 {
+		font-size: 44px;
 	}
 	/* Banner End */
 
@@ -412,10 +536,10 @@
 	.twitter-contact,
 	.teacher,
 	.event {
-		margin: 40px auto;
+		margin: 45px auto;
 	}
 	.common-title {
-		margin: 30px auto;
+		margin: 45px auto;
 	}
 	.common-title h1 {
 		font-size: 28px;
@@ -429,42 +553,69 @@
 		margin: 25px auto;
 	}
 	/* 1st Kid Education End */
-
-	/* 2nd Kid Education Start */
+	.kid-edu-content,
 	.kid-edu2-body {
-		margin-bottom: 40px;
+		padding-bottom: 45px;
 	}
-	/* 2nd Kid Education End */
+	/* 2nd Kid Education Start */
+ 	/* 2nd Kid Education End */
 
 	/* Cources Start */
+	.cource .common-title {
+		margin-bottom: 0;
+	}
+	.custom-c-t {
+		min-height: 100px;
+	}
+	.custom-c-t2 {
+		min-height: 75px;
+	}
 	.custom-c-btn,
-	.p-gallery,
-	.mm-footer {
-		margin: 35px auto;
+	.p-gallery {
+		margin: 45px auto;
 	}
 	/* Cources End */
 
 	/* Memorable Moments Start */
+	.mm-footer,
+	.tc-body {
+		margin-top: 45px;
+	}
 	/* Memorable Moments End */
 
 	/* Twitter Contacts Start */
-	.tc-icon {
-		margin-top: 35px;
-	}
 	/* Twitter Contacts End */
 
 	/* Teachers Start */
-	.custom-t-img {
-		margin-top: 30px;
+	.teacher-content {
+		padding-bottom: 15px;
+	}
+	.single-teacher {
+		padding-bottom: 30px;
+	}
+	.single-teacher .custom-title {
+		margin-top: 0 !important;
+	}
+	.single-teacher h2 {
+		margin-top: 0 !important;
 	}
 	/* Teachers End */
 
-	/* Teachers Start */
-	/* Teachers End */
-
 	/* Blog Start */
+	.blog {
+		padding: 45px 0;
+	}
 	.blog-title {
-		padding-bottom: 60px;
+		margin: 45px auto;
+	}
+	.blog-content {
+		margin-bottom: 45px;
+	}
+	.blog-text h1 {
+		font-size: 55px;
+	}
+	.blog-text h2 {
+		font-size: 22px;
 	}
 	/* Blog End */
 
@@ -481,6 +632,12 @@
 		margin: -12px;
 	}
 	/* Events End */
+
+	/* Contact Start */
+	.contact {
+		padding-bottom: 45px;	
+	}
+	/* Contact End */
 
 	/* Footer Start */
 	footer {
